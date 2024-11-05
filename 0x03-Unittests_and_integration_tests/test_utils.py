@@ -4,12 +4,19 @@ from utils import access_nested_map
 """
 implement Testclass for utils module
 """
+
+
 class TestAccessNestedMap(unittest.TestCase):
+    """
+    test class
+    """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2}),
         ({"a": {"b": 2}}, ("a", "b"), 2)
     ])
-
-    def test_access_nested_map(self, nested_map, path, expected):
+    def test_access_nested_map(self, nested_map, path, expected) -> any:
+        """
+        test method
+        """
         self.assertEqual(access_nested_map(nested_map, path), expected)
