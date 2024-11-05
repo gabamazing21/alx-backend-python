@@ -1,0 +1,1 @@
+Common testing patterns such as mocking, parametrizations and fixtures
