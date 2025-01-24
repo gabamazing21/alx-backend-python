@@ -3,6 +3,6 @@ import math
 """type annotation """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """type annotation """
     return math.floor(n)
