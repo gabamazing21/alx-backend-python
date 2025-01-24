@@ -4,7 +4,5 @@ from typing import List, Union
 
 
 def sum_mixed_list(mixd_lst: List[Union[int, float]]) -> float:
-    """
-    type annotation
-    """
+    """type annotation"""
     return sum(mixd_lst)
