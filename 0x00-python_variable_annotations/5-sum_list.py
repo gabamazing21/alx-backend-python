@@ -6,4 +6,7 @@ def sum(input_list: list[float]) -> float:
     """
     sum of float in pythong with type annotation
     """
-    return sum(input_list)
+    total: float = 0
+    for i in input_list:
+        total += i
+    return total
