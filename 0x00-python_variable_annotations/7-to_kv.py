@@ -6,4 +6,4 @@ from typing import List, Union
 def to_kv(k: str, v: int | float) -> tuple:
     """ workig with type annotation"""
     v = v**2
-    return (v, v)
+    return (k, v)
