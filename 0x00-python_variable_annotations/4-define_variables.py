@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ workig with type annotation"""
 
-a = 1
-pi = 3.14
-i_understand_annotations = True
-school = 'ALX'
+a: int = 1
+pi: float = 3.14
+i_understand_annotations: bool = True
+school: str = 'ALX'
