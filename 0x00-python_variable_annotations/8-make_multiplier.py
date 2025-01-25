@@ -4,7 +4,7 @@
 from typing import List, Union, Tuple, Callable
 
 
-def make_multiplier(multiplier: float) -> callable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     return a function that multiples a float by the given the multopler."""
     def multipler_function(x: float) -> float:
