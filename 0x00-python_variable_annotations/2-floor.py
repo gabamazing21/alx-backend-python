@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-import math
-"""type annotation for floor """
+""" workig with type annotation"""
 
 
 def floor(n: float) -> int:
