@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """ workig with type annotation"""
 
-from typing import List, Tuple, Sequence
+from typing import List, Tuple, Sequence, Any
 from types import NoneType
 
 
-def zoom_array(lst: Sequence[int], factor: int = 2) -> List[int]:
+def zoom_array(lst: Sequence[Any], factor: int = 2) -> Sequence[Any]:
     zoomed_in: Tuple = [
         item for item in lst
         for i in range(factor)
