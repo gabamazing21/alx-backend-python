@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """ workig with type annotation"""
 
-from typing import Protocol, TypeVar, Optional, Sequence, Any, Union, NoneType
+from typing import Sequence, Any, Union
+from types import NoneType
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
